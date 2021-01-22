@@ -12,7 +12,7 @@ test ("Fetch Todos", (done) => {
         if(err) return done(err);
         
         expect(res.body).toBeInstanceOf(Object);
-        expect(res.body.length).toBe(3);
+        expect(res.body.length).toBe(4);
 
         done();
     })
